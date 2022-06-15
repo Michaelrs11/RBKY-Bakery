@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RBKY - Order | Online Bakery Shop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../styles/style.css">
+</head>
+<body>
+	<div>
+		<div>
+			<!-- topnav -->
+			<div class="topnav" id="idTopnav">
+  				<a class="logoTopnav" href="home.html"><img src="../assets/icon/RBKYMini.png"/></a>
+  				<div class="subTopnav">
+  					<div class="dropdown">
+						<div><button class="dropbtn">Product
+			  			</button></div>
+						<div class="dropdown-content">
+			      			<a href="hotProduct.html">Hot Product</a>
+			      			<a href="newProduct.html">New Product</a>
+			    		</div>
+					</div>
+						<a href="order.html">Order</a>
+						<a href="aboutUs.html">About Us</a>			
+				</div>
+				<a href="javascript:void(0);" class="fontTopNavFunc icon" onclick="TopNavFunc()">&#9776;</a>
+			</div>	
+		</div>
+		<div class="container">
+			<div class="containerBilling">
+				<div class="rowOrder">
+					<div class="col-75">
+				    	<div>
+				      		<form name="myForm" onsubmit="return validateForm()" method="post">
+				        		<div class="rowOrder">
+						        	<div class="col-50">
+						            	<h3>Billing Address</h3>
+						            	<div>
+						            		<div>
+						            			<img src="../assets/icon/man-user.png" class="iconContact"> Full Name
+								            	<label id="namelbl" style="color: red"></label>
+									            <input type="text" name="name" placeholder="Full Name" id="floatField" required>
+						            		</div>
+						            		<div>
+						            			<img src="../assets/icon/mail.png" class="iconContact"> Email
+												<label id="emaillbl" style="color: red"></label>
+									            <input type="text" name="email" placeholder="rbky@example.com" required>
+						            		</div>
+						            		<div>
+						            			<img src="../assets/icon/phone-call.png" class="iconContact"> Phone Number
+												<label id="numberlbl" style="color: red"></label>
+									            <input type="text" name="number" placeholder="0123456789999 (Must Number!)" required>
+						            		</div>
+						            		<div>
+						            			<img src="../assets/icon/identification.png" class="iconContact"> Address
+												<label id="addresslbl" style="color: red"></label>
+									            <input type="text" name="address" placeholder="Alam Sutera Blvd Street" required>
+						            		</div>
+							            	<div class="rowOrder">
+							            		<div class="col-50">
+							            			<img src="../assets/icon/stack-overflow.png" class="iconContact"> Quantity
+							            			<input type="text" name="qty" placeholder="1-..." required>
+							            			<label id="qtylbl" style="color: red"></label>
+							            		</div>
+							            		<div class="col-50">
+								            		Product<br>
+								            		<div class="select-div">
+								            			<select>
+									            			<option value="0" selected="selected">Select Product</option>
+															<option value="1">Almond Pastry</option>
+															<option value="2">Banana Chocolate</option>
+															<option value="3">Choco Peanut</option>
+															<option value="4">Chocolate Long John</option>
+															<option value="5">Cheese Cake (Idul Fitri)</option>
+															<option value="6">Desire Cake (Idul Fitri)</option>
+															<option value="7">Fruit Cake (Idul Fitri)</option>
+															<option value="8">Lemon Cake (Idul Fitri)</option>
+															<option value="9">Beef Milano</option>
+															<option value="10">Cheese Finger</option>
+															<option value="11">Chocolate Eclair</option>
+															<option value="12">Rendang Puff</option>
+															<option value="13">Fire Floss</option>
+															<option value="14">Caffee Uno</option>
+															<option value="15">Chocolate Croisant</option>
+															<option value="16">Blueberry Cake</option>
+														</select>
+								            		</div>
+							            		</div>
+							            	</div>
+							            	<input type="submit" class="btn" value="Submit">
+							        	</div>
+							    	</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+		          
+		</div>
+			<div>
+			<img src="../assets/banner/BackdropBakery.png" class="backdropFooter">
+		</div>
+		
+		<!-- footer -->
+		<footer id="footer" class="footer">
+			<div class="footerContent">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="companyName">
+								<img src="../assets/icon/RBKY1.png" class="logoFooter">
+								<div class="companyIdentity">
+									<p>PT. RBKY Indonesia</p>
+									<p>BINUS University Alam Sutera</p>
+									<p>Jl. Jalur Sutera Barat Kav. 21</p>
+									<p>Kel. Panunggangan Timur, Kec. Pinang</p>
+									<p>Kota Tangerang 15143</p>
+									<p>Hello Rbky : +62 8888888888</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="subFooterCont">
+								<h4 class="textCenter">Link</h4>
+								<a href="https://www.apple.com/id/ios/app-store/"><img src="assets/icon/badgeAppStore.png" class="badgeApp"></a>
+								<a href="https://play.google.com/store"><img src="assets/icon/badgeGooglePlay.png" class="badgePlay"></a>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="subFooterCont">
+								<h4 class="textCenter">Our Social Media</h4>
+								<a href="https://www.facebook.com" ><img src="../assets/icon/facebook.png" class="logoSocialMedia"></a>
+								<a href="https://www.twitter.com"><img src="../assets/icon/twitter.png" class="logoSocialMedia"></a>
+								<a href="https://www.instagram.com"><img src="../assets/icon/instagram.png" class="logoSocialMedia"></a>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>	
+	</div>
+	<script src="../scripts/script.js"></script>
+</body>
+</html>
