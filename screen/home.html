@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RBKY - Home | Online Bakery Shop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../styles/style.css">
+</head>
+<body>
+    <div>
+		<div>
+			<!-- topnav -->
+			<div class="topnav" id="idTopnav">
+  				<a class="logoTopnav" href="home.html"><img src="../assets/icon/RBKYMini.png"/></a>
+  				<div class="subTopnav">
+  					<div class="dropdown">
+						<div><button class="dropbtn">Product
+			  			</button></div>
+						<div class="dropdown-content">
+			      			<a href="hotProduct.html">Hot Product</a>
+			      			<a href="newProduct.html">New Product</a>
+			    		</div>
+					</div>
+						<a href="order.html">Order</a>
+						<a href="aboutUs.html">About Us</a>				
+				</div>
+				<a href="javascript:void(0);" class="fontTopNavFunc icon" onclick="TopNavFunc()">&#9776;</a>
+			</div>	
+		</div>
+		<div class="container">
+			<!-- img banner1 -->
+			<div class="containerImgtxt">
+				<div class="homeBanner1"><img src="../assets/banner/BannerHeader1.jpg" class="headerimg1"></div>
+				<div class="centeredImgtxt">
+					<h1 class="verdana">We Serve the best quality of bakery</h1>
+					<div class="row">
+						<div class="col-md-6">
+							<p>Find Our Shop</p>
+							<button class="btn"><a href="#section1">Find Shop</a></button>
+							
+						</div>
+						<div class="col-md-6">
+							<p>Find Promo</p>
+							<button class="btn"><a href="#section2">Find Coupon</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div></div>
+			<div>
+				<div>
+				<!-- slideshow -->
+				<div>
+					<h3 id="eidmubarakban">Eid Mubarak Edition</h3>
+					<div class="containerSlide">
+					  <div class="mySlides">
+					    <div class="numbertext"></div>
+					      <img src="../assets/img/black_forest_idul_firti.jpg" class="imgSlide">
+					      <div class="centeredImgtxtMod">
+					      </div>
+					  </div>
+
+					  <div class="mySlides">
+					    <div class="numbertext"></div>
+					      <img src="../assets/img/desire_cake_idul_fitri.jpg" class="imgSlide">
+					      <div class="centeredImgtxtMod">
+					      </div>
+					  </div>
+
+					  <div class="mySlides">
+					    <div class="numbertext"></div>
+					      <img src="../assets/img/elegant_hamper.jpg" class="imgSlide">
+					      <div class="centeredImgtxtMod">
+					      </div>
+					  </div>
+
+					  <div class="mySlides">
+					    <div class="numbertext"></div>
+					      <img src="../assets/img/mocca_cake_idul_fitri.jpg" class="imgSlide">
+					      <div class="centeredImgtxtMod">
+					      </div>
+					  </div>
+
+					  <div class="mySlides">
+					    <div class="numbertext"></div>
+					      <img src="../assets/img/lemon_cake_idul_fitri.jpg" class="imgSlide">
+					      <div class="centeredImgtxtMod">
+					      </div>
+					  </div>
+
+					  <div class="mySlides">
+					    <div class="numbertext"></div>
+					      <img src="../assets/img/fruit_fresh_cream_cake_idul_fitri.jpg" class="imgSlide">
+					      <div class="centeredImgtxtMod">
+					      </div>
+					  </div>
+
+					  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+					  <div class="caption-containerSlide">
+					    <p id="caption"></p>
+					  </div>
+
+					  <div>
+					    <div class="column6">
+					      <img class="demo cursor" src="../assets/img/black_forest_idul_firti.jpg" onclick="currentSlide(1)" alt="Black Forest (Idul Fitri) Rp. 335.000">
+					    </div>
+					    <div class="column6"> 
+					      <img class="demo cursor" src="../assets/img/desire_cake_idul_fitri.jpg"  onclick="currentSlide(2)" alt="Desire Cake (Idul Fitri) Rp. 203.000">
+					    </div>
+					    <div class="column6">
+					      <img class="demo cursor" src="../assets/img/elegant_hamper.jpg" onclick="currentSlide(3)" alt="Elegant Hamper (Idul Fitri) Rp. 505.000">
+					    </div>
+					    <div class="column6">
+					      <img class="demo cursor" src="../assets/img/mocca_cake_idul_fitri.jpg" onclick="currentSlide(4)" alt="Mocca Cake (Idul Fitri) Rp. 175.000">
+					    </div>
+					    <div class="column6">
+					      <img class="demo cursor" src="../assets/img/lemon_cake_idul_fitri.jpg" onclick="currentSlide(5)" alt="Lemon Cake (Idul Fitri) Rp. 175.000">
+					    </div> 
+					    <div class="column6">
+					      <img class="demo cursor" src="../assets/img/fruit_fresh_cream_cake_idul_fitri.jpg " onclick="currentSlide(6)" alt="Fruit Fresh Cream Cake (Idul Fitri) Rp. 225.000">
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div>
+					<div id="section1">
+						<br>
+						<h3 class="headerTxt" id="findMe">Find Me!</h3>
+						<div class="mapouter">
+							<div class="gmap_canvas">
+								<iframe width="100%" height="650" id="gmap_canvas" src="https://maps.google.com/maps?q=binus&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+								</iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div><br>
+			<div id="section2">
+				<h3 class="headerTxt comicSans" id="couponTxt">Coupon Promo</h3>
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="coupon">
+							<div class="containerCoupon">
+						    	<img src="../assets/icon/Mandiri.png" style="width: 50px">
+						  	</div>
+						  	<img src="../assets/img/almond_pastry.jpg" alt="Avatar" style="width:100%;">
+						  	<div class="containerCoupon" style="background-color:white">
+						    	<h2><b>20% OFF YOUR PURCHASE</b></h2> 
+						    	<p>Get 20% discount by using Mega debit or credit card</p>
+						  	</div>
+						  	<div class="containerCoupon">
+						    	<p>Use Promo Code: <span class="promo">RBKY001</span></p>
+						    	<p class="expire">Expires: Jan 03, 2021</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="coupon">
+							<div class="containerCoupon">
+									<img src="../assets/icon/CIMB.png" style="width: 50px">
+						  	</div>
+						  	<img src="../assets/img/banana_chocolate.jpg" alt="Avatar" style="width:100%;">
+						  	<div class="containerCoupon" style="background-color:white">
+						    	<h2><b>30% OFF YOUR PURCHASE</b></h2> 
+						    	<p>Get 30% discount by using CIMB debit or credit Card</p>
+						  	</div>
+						  	<div class="containerCoupon">
+						    	<p>Use Promo Code: <span class="promo">RBKY002</span></p>
+						    	<p class="expire">Expires: Jan 03, 2021</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="coupon">
+							<div class="containerCoupon">
+								<img src="../assets/icon/Permata.png" style="width: 50px">
+						  	</div>
+						  	<img src="../assets/img/choco_nut.jpg" alt="Avatar" style="width:100%;">
+						  	<div class="containerCoupon" style="background-color:white">
+						    	<h2><b>25% OFF YOUR PURCHASE</b></h2> 
+						    	<p>Get 25% discount by using Permata debit or credit card</p>
+						  	</div>
+						  	<div class="containerCoupon">
+						    	<p>Use Promo Code: <span class="promo">RBKY003</span></p>
+						    	<p class="expire">Expires: Jan 03, 2021</p>
+						  </div>
+						</div>
+					</div>
+				</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-4">
+						<div class="coupon">
+							<div class="containerCoupon">
+								<img src="../assets/icon/BCA.png" style="width: 50px">
+						  	</div>
+						  	<img src="../assets/img/Chocolate_John.jpg" alt="Avatar" style="width:100%;">
+						  	<div class="containerCoupon" style="background-color:white">
+						    	<h2><b>20% OFF YOUR PURCHASE</b></h2> 
+						    	<p>Get 20% discount by using BCA debit or credit card</p>
+						  	</div>
+						  	<div class="containerCoupon">
+						    	<p>Use Promo Code: <span class="promo">RBKY004</span></p>
+						    	<p class="expire">Expires: Jan 03, 2021</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="coupon">
+							<div class="containerCoupon">
+									<img src="../assets/icon/OVO.jpg" style="width: 50px">
+						  	</div>
+						  	<img src="../assets/img/clasic_cheese_cake_idul_fitri.jpg" alt="Avatar" style="width:100%;">
+						  	<div class="containerCoupon" style="background-color:white">
+						    	<h2><b>OVO Cashback 40%</b></h2> 
+						    	<p>Cashback 40% to OVO point each first bought.</p>
+						  	</div>
+						  	<div class="containerCoupon">
+						    	<p>Use Promo Code: <span class="promo">RBKY005</span></p>
+						    	<p class="expire">Expires: Jan 03, 2021</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="coupon">
+							<div class="containerCoupon">
+								<img src="../assets/icon/GoPay.jpg" style="width: 50px">
+						  	</div>
+						  	<img src="../assets/img/fruit_fresh_cream_cake_idul_fitri.jpg" alt="Avatar" style="width:100%;">
+						  	<div class="containerCoupon" style="background-color:white">
+						    	<h2><b>GOPAY Cashback 50%</b></h2> 
+						    	<p>Cashback 50% from Gopay for each first bought.</p>
+						  	</div>
+						  	<div class="containerCoupon">
+						    	<p>Use Promo Code: <span class="promo">RBKY006</span></p>
+						    	<p class="expire">Expires: Jan 03, 2021</p>
+						  </div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div>
+				<div>
+					<img src="../assets/banner/BackdropBakery.png" class="backdropFooter">
+				</div>
+				<!-- footer -->
+				<footer id="footer" class="footer">
+					<div class="footerContent">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="companyName">
+										<img src="../assets/icon/RBKY1.png" class="logoFooter">
+										<div class="companyIdentity">
+											<p>PT. RBKY Indonesia</p>
+											<p>BINUS University Alam Sutera</p>
+											<p>Jl. Jalur Sutera Barat Kav. 21</p>
+											<p>Kel. Panunggangan Timur, Kec. Pinang</p>
+											<p>Kota Tangerang 15143</p>
+											<p>Hello Rbky : +62 8888888888</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="subFooterCont">
+										<h4 class="textCenter">Link</h4>
+										<a href="https://www.apple.com/id/ios/app-store/"><img src="../assets/icon/badgeAppStore.png" class="badgeApp"></a>
+										<a href="https://play.google.com/store"><img src="../assets/icon/badgeGooglePlay.png" class="badgePlay"></a>
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="subFooterCont">
+										<h4 class="textCenter">Our Social Media</h4>
+										<a href="https://www.facebook.com" ><img src="../assets/icon/facebook.png" class="logoSocialMedia"></a>
+										<a href="https://www.twitter.com"><img src="../assets/icon/twitter.png" class="logoSocialMedia"></a>
+										<a href="https://www.instagram.com"><img src="../assets/icon/instagram.png" class="logoSocialMedia"></a>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>	
+			</div>
+		</div>		
+	</div>
+	<script src="../scripts/script.js"></script>
+</body>
+</html>
